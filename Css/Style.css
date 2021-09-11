@@ -56,19 +56,11 @@ body {
 }
 #main {
   float: left;
-  width: 70%;
+  width: 100%;
   padding: 0 30px;
   box-sizing: border-box;
 }
 
-#sidebar {
-  float: right;
-  width: 30%;
-  background: rgb(7, 33, 64);
-  color: white;
-  padding: 10px;
-  box-sizing: border-box;
-}
 
 #main-footer {
   background: rgb(7, 33, 64);
