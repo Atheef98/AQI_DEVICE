@@ -185,16 +185,13 @@ body {
   transform: rotate(-360deg);
 }
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
+.row {
+  display: flex;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 /*calendar*/
