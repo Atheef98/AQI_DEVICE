@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: Auto;
   overflow: hidden;
 }
@@ -42,7 +42,7 @@ body {
   padding-right: 30px;
 }
 #showcase {
-  background-image: url("../Images/sampleiot2.jpg");
+  background-image: url("../images/sampleiot2.jpg");
   background-position: justify;
   min-height: 250px;
   margin-bottom: 30px;
@@ -55,29 +55,36 @@ body {
   padding-top: 0;
 }
 #main {
-  float: left;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 250px;
   box-sizing: border-box;
 }
 
+/*#sidebar {
+  float: right;
+  width: 30%;
+  background: rgb(7, 33, 64);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}*/
 
 #main-footer {
   background: rgb(7, 33, 64);
   color: #fff;
   text-align: center;
   padding: 0.1px;
-  margin-top: 0.1px;
+  margin-top: 100px;
 }
 @media (max-width: 600px) {
   #main {
     width: 100%;
     float: none;
   }
-  #sidebar {
+  /*#sidebar {
     width: 100%;
     float: none;
-  }
+  }*/
 }
 
 /*footer*/
@@ -176,6 +183,3 @@ body {
 .effect.aeneas a:hover i {
   transform: rotate(-360deg);
 }
-
-
-
